@@ -1,0 +1,5 @@
+// prints a random number between 1 and 6 like ludo dice
+const min=1
+const max=6
+const randomGenerator=Math.floor(Math.random()*(max-min+1))+min
+console.log(randomGenerator)
